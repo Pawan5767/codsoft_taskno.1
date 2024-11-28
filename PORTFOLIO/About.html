@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+
+            background-color: rgb(37, 37, 65);
+            margin: 300px;
+        }
+
+        body hr {
+            border: 0;
+            background: rgb(85, 73, 73);
+            height: 1.2px;
+            margin: 35px;
+        }
+
+        #element {
+            font-size: 40px;
+            text-align: center;
+            display: flex;
+            color: white;
+        }
+
+        body section {
+            text-align: center;
+            font-size: 20px;
+            color: rgb(116, 100, 100);
+            margin: -30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>About</section>
+    <hr>
+    <span id="element"></span>
+    <div>
+    </div>
+    <hr>
+</body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['My Name Is Pawan Kumar and I Am Web Developer.<br>Skills:- C , C++, HTML, CSS, JAVASCRIPT AND PYTHON PROGRMAING LANGUAGE'],
+        typeSpeed: 50,
+    });
+</script>
+
+</html>
